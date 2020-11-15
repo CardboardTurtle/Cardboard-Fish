@@ -11,5 +11,6 @@ Aliases/Commands in these dotfiles:
 "starwars" plays star wars.
 "rofi" launches a Rofi window for launching applications.
 
-Assumes you have the Nix package manager. if you do not use this package manager, go into "config.fish" and replace "sudo apt install" and "sudo apt remove" with whatever commands your package manager uses.
+Assumes you have the Nix package manager. if you do not use this package manager, go into "config.fish" and replace the aliases labelled "install" and "remove" with whatever commands your package manager uses.
+
 you can install the Nix package manager on any linux distribution at https://nixos.org/
