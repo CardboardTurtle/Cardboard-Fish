@@ -1,5 +1,5 @@
 # Cardboard-Fish
-My personal Fish Shel configuration. Fish shell: https://fishshell.com/
+My personal Fish Shell configuration. Fish shell: https://fishshell.com/
 
 To install, get the Fish shell. Then, place my folder in your "~/.config" directory. there should already be a folder labelled "fish" in there, just replace it with this folder.
 
