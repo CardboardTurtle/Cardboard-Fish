@@ -1,7 +1,6 @@
-clear
 alias tetris "vitetris"
-alias install "sudo nix-env -i"
-alias remove "sudo nix-env -e"
+alias install "sudo apt install"
+alias remove "sudo apt remove"
 alias purge "sudo apt purge"
 alias minesweeper "freesweep"
 alias home "cd ~"
