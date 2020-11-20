@@ -7,14 +7,14 @@ SETUVAR fish_color_command:green
 SETUVAR fish_color_comment:green
 SETUVAR fish_color_cwd:brcyan
 SETUVAR fish_color_cwd_root:red
-SETUVAR fish_color_end:green
+SETUVAR fish_color_end:brcyan
 SETUVAR fish_color_error:blue
 SETUVAR fish_color_escape:brgreen
 SETUVAR fish_color_history_current:brblue
-SETUVAR fish_color_host:brcyan
-SETUVAR fish_color_host_remote:yellow
+SETUVAR -b  fish_color_host:brcyan
+SETUVAR fish_color_host_remote:brwhite
 SETUVAR fish_color_match:brblue
-SETUVAR fish_color_normal:normal
+SETUVAR fish_color_normal:brgreen
 SETUVAR fish_color_operator:brblue
 SETUVAR fish_color_param:brgreen
 SETUVAR fish_color_quote:brcyan
@@ -22,11 +22,11 @@ SETUVAR fish_color_redirection:brblue
 SETUVAR fish_color_search_match:brblack
 SETUVAR fish_color_selection:white
 SETUVAR fish_color_status:red
-SETUVAR fish_color_user:brgreen
+SETUVAR -b fish_color_user:brgreen
 SETUVAR fish_color_valid_path:green
 SETUVAR fish_greeting:
 SETUVAR fish_key_bindings:fish_default_key_bindings
-SETUVAR fish_pager_color_completion:
-SETUVAR fish_pager_color_description:yellow
-SETUVAR fish_pager_color_prefix:white
-SETUVAR fish_pager_color_progress:brwhite
+SETUVAR fish_pager_color_completion:brgreen
+SETUVAR fish_pager_color_description:brgreen
+SETUVAR fish_pager_color_prefix:brcyan
+SETUVAR fish_pager_color_progress:brcyan

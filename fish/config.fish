@@ -8,7 +8,7 @@ alias minesweeper "freesweep"
 alias home "cd ~"
 alias back "cd -"
 alias up "cd .."
-alias cls "clear"
+alias cls "fish"
 alias documents "cd ~/Documents"
 alias pictures "cd ~/Pictures"
 alias videos "cd ~/Videos"
@@ -21,6 +21,8 @@ alias coronachan "curl https://corona-stats.online/states/us"
 alias secondary "cd /;cd /secondary"
 alias tertiary "cd /;cd /tertiary"
 alias primary "cd /"
+alias config "micro .config/fish/config.fish"
+alias colors "micro .config/fish/fish_variables"
 alias cardboardturtle 'Github: https://github.com/CardboardTurtle Ruqqus: https://ruqqus.com/@anaggravatedturtle  Matrix.org: @cardboard_turtle:matrix.org'
 echo -e  (set_color brcyan) '__________________________________________
 < Welcome to Cardboard Turtle`s Fish Shell! >
@@ -28,11 +30,11 @@ echo -e  (set_color brcyan) '__________________________________________
     \    '(set_color brgreen)'                              ___-------___
  '(set_color brcyan)'    \  '(set_color brgreen)'                           _-~~             ~~-_
   '(set_color brcyan)'    \       '(set_color brgreen)'                  _-~                    /~-_
-             /^\__/^\         /~  \                   /    \
+             /^\_/^\         /~  \                   /    \
            /|  O|| O|        /      \_______________/        \
           | |___||__|      /       /                \          \
           |          \    /      /                    \          \
-          |   (_______) /______/                        \_________ \
+          |      _____) /______/                        \_________ \
           |         / /         \                      /            \
            \         \^\\         \                  /               \     /
              \         ||           \______________/      _-_       //\__//
