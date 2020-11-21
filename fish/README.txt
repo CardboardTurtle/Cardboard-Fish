@@ -52,6 +52,10 @@ NAVIGATION:
 
 "tertiary" takes you to your tertiary drive at "/tertiary"
 
+"md" makes a new directory
+
+"rd" removes a directory
+
 
 
 MISC:
