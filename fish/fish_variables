@@ -1,6 +1,41 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
 SETUVAR __fish_initialized:3100
+SETUVAR _fish_abbr_back:cd\x20\x2d
+SETUVAR _fish_abbr_cardboardturtle:Github\x3a\x20https\x3a//github\x2ecom/CardboardTurtle\x20Ruqqus\x3a\x20https\x3a//ruqqus\x2ecom/\x40anaggravatedturtle\x20\x20Matrix\x2eorg\x3a\x20\x40cardboard_turtle\x3amatrix\x2eorg
+SETUVAR _fish_abbr_cfg:micro\x20\x7e/\x2econfig/fish/config\x2efish
+SETUVAR _fish_abbr_cls:fish
+SETUVAR _fish_abbr_colors:micro\x20\x7e/\x2econfig/fish/fish_variables
+SETUVAR _fish_abbr_config:micro\x20\x7e/\x2econfig/fish/config\x2efish
+SETUVAR _fish_abbr_coronachan:curl\x20https\x3a//corona\x2dstats\x2eonline
+SETUVAR _fish_abbr_coronachanusa:curl\x20https\x3a//corona\x2dstats\x2eonline/states/us
+SETUVAR _fish_abbr_desktop:cd\x20\x7e/Desktop
+SETUVAR _fish_abbr_docs:cd\x20\x7e/Documents
+SETUVAR _fish_abbr_documents:cd\x20\x7e/Documents
+SETUVAR _fish_abbr_downloads:cd\x20\x7e/Downloads
+SETUVAR _fish_abbr_gas:echo\x20\x2de\x20\x28set_color\x20brred\x29\x20\x27\x0a\u5350\u5350\u5350\u5350\u5350\u5350\u5350\u5350\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\u5350\x27
+SETUVAR _fish_abbr_home:cd\x20\x7e
+SETUVAR _fish_abbr_install:sudo\x20apt\x20install
+SETUVAR _fish_abbr_md:mkdir
+SETUVAR _fish_abbr_minesweeper:freesweep
+SETUVAR _fish_abbr_music:cd\x20\x7e/Music
+SETUVAR _fish_abbr_pen:penis
+SETUVAR _fish_abbr_pictures:cd\x20\x7e/Pictures
+SETUVAR _fish_abbr_playmusic:vlc\x20\x7e/Music
+SETUVAR _fish_abbr_pm:vlc\x20\x7e/Music
+SETUVAR _fish_abbr_primary:cd\x20/
+SETUVAR _fish_abbr_purge:sudo\x20apt\x20purge
+SETUVAR _fish_abbr_rd:rmdir
+SETUVAR _fish_abbr_remove:sudo\x20apt\x20remove
+SETUVAR _fish_abbr_rofi:rofi\x20\x2dshow\x20run
+SETUVAR _fish_abbr_root:cd\x20/
+SETUVAR _fish_abbr_secondary:cd\x20/\x3bcd\x20/secondary
+SETUVAR _fish_abbr_starwars:telnet\x20towel\x2eblinkenlights\x2enl
+SETUVAR _fish_abbr_tertiary:cd\x20/\x3bcd\x20/tertiary
+SETUVAR _fish_abbr_tetris:vitetris
+SETUVAR _fish_abbr_up:cd\x20\x2e\x2e
+SETUVAR _fish_abbr_videos:cd\x20\x7e/Videos
+SETUVAR _fish_abbr_vlc:vlc\x20\x7e/Music
 SETUVAR fish_color_autosuggestion:brblack
 SETUVAR fish_color_cancel:green
 SETUVAR fish_color_command:green
@@ -11,7 +46,7 @@ SETUVAR fish_color_end:brcyan
 SETUVAR fish_color_error:blue
 SETUVAR fish_color_escape:brgreen
 SETUVAR fish_color_history_current:brblue
-SETUVAR -b  fish_color_host:brcyan
+SETUVAR fish_color_host:brcyan
 SETUVAR fish_color_host_remote:brwhite
 SETUVAR fish_color_match:brblue
 SETUVAR fish_color_normal:brgreen
@@ -22,7 +57,7 @@ SETUVAR fish_color_redirection:brblue
 SETUVAR fish_color_search_match:brblack
 SETUVAR fish_color_selection:white
 SETUVAR fish_color_status:red
-SETUVAR -b fish_color_user:brgreen
+SETUVAR fish_color_user:brgreen
 SETUVAR fish_color_valid_path:green
 SETUVAR fish_greeting:
 SETUVAR fish_key_bindings:fish_default_key_bindings

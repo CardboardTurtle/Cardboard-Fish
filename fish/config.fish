@@ -1,34 +1,44 @@
 clear
 cd ~
-alias tetris "vitetris"
-alias install "sudo apt install"
-alias remove "sudo apt remove"
-alias purge "sudo apt purge"
-alias minesweeper "freesweep"
-alias home "cd ~"
-alias back "cd -"
-alias up "cd .."
-alias md "mkdir"
-alias rd "rmdir"
-alias cls "fish"
-alias documents "cd ~/Documents"
-alias pictures "cd ~/Pictures"
-alias videos "cd ~/Videos"
-alias downloads "cd ~/Downloads"
-alias music "cd ~/Music"
-alias desktop "cd ~/Desktop"
-alias starwars "telnet towel.blinkenlights.nl"
-alias rofi "rofi -show run"
-alias coronachan "curl https://corona-stats.online/states/us"
-alias secondary "cd /;cd /secondary"
-alias tertiary "cd /;cd /tertiary"
-alias primary "cd /"
-alias config "micro .config/fish/config.fish"
-alias colors "micro .config/fish/fish_variables"
-alias cardboardturtle 'Github: https://github.com/CardboardTurtle Ruqqus: https://ruqqus.com/@anaggravatedturtle  Matrix.org: @cardboard_turtle:matrix.org'
-echo -e  (set_color brgreen) '__________________________________________
-< Welcome to Cardboard Turtle`s Fish Shell! >
- ------------------------------------------
+function vlc --wraps=vlc
+    command vlc $argv >/dev/null 2>&1 &
+    disown
+end
+funcsave vlc
+abbr pm "vlc ~/Music"
+abbr tetris "vitetris"
+abbr install "sudo apt install"
+abbr remove "sudo apt remove"
+abbr purge "sudo apt purge"
+abbr minesweeper "freesweep"
+abbr home "cd ~"
+abbr back "cd -"
+abbr up "cd .."
+abbr md "mkdir"
+abbr rd "rmdir"
+abbr cls "fish"
+abbr documents "cd ~/Documents"
+abbr docs "cd ~/Documents"
+abbr pictures "cd ~/Pictures"
+abbr videos "cd ~/Videos"
+abbr downloads "cd ~/Downloads"
+abbr music "cd ~/Music"
+abbr desktop "cd ~/Desktop"
+abbr starwars "telnet towel.blinkenlights.nl"
+abbr rofi "rofi -show run"
+abbr coronachanusa "curl https://corona-stats.online/states/us"
+abbr coronachan "curl https://corona-stats.online"
+abbr secondary "cd /;cd /secondary"
+abbr tertiary "cd /;cd /tertiary"
+abbr primary "cd /"
+abbr root "cd /"
+abbr config "micro ~/.config/fish/config.fish"
+abbr cfg "micro ~/.config/fish/config.fish"
+abbr colors "micro ~/.config/fish/fish_variables"
+abbr cardboardturtle 'Github: https://github.com/CardboardTurtle Ruqqus: https://ruqqus.com/@anaggravatedturtle  Matrix.org: @cardboard_turtle:matrix.org'
+echo -e  (set_color brgreen) '___________________________________________
+| Welcome to Cardboard Turtle`s Fish Shell! |
+ -------------------------------------------
     \    '(set_color ad8762)'                              ___-------___
  '(set_color brgreen)'    \  '(set_color a77f58)'                           _-~~             ~~-_
   '(set_color brgreen)'    \       '(set_color a77f58)'                  _-~                   / ~-_
@@ -44,7 +54,6 @@ echo -e  (set_color brgreen) '__________________________________________
                  ~-----||====/~     |==================|       |/~~~~~
                   (_(__/  ./     /                    \_\      \.
                          (_(___/                         \_____)_) '
-echo (set_color brgreen)''
-date +"Today is %A, %B %d" | figlet -f mini
 printf (set_color brcyan)
-date +"The time is %H:%M:%S" | figlet -f mini
+date +"Today is %A, %B %d." | figlet -f mini
+date +"The time is %l:%M %p" | figlet -f mini
