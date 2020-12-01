@@ -12,13 +12,19 @@ GAMES AND FUN:
 
 "minesweeper" launches freesweep, terminal minesweeper game.
 
+"snake" launches nsnake, a terminal snake game.
+
+"pacman" launches pacman4console, a terminal pacman game.
+
+"invaders" launches ninvaders, a terminal space invaders game.
+
 "starwars" plays star wars.
 
 "coronachan" lets you watch the world burn.
 
 "coronachanusa" lets you watch the united states burn.
 
-"pm" plays the songs in your music folder with VLC.
+"matrix" launches cmatrix which makes your screen do the funny matrix thing
 
 
 
@@ -56,15 +62,31 @@ NAVIGATION:
 
 "tertiary" takes you to your tertiary drive at "/tertiary"
 
-"rd" removes a directory
 
-"md" creates a directory
+
+BASIC COPUTER USE:
+
+"img" is an alias for feh, an image viewer
+
+"pm" plays the songs in your music folder with VLC.
+
+"cls" clears your terminal screen.
+
+"rd" removes a directory.
+
+"md" creates a directory.
+
+"delete" deletes a file.
+
+"create" creates a file.
+
+"rename" renames a file. type filename then new filename.
+
+"move" moves a file. type filename then the new location.
 
 
 
 MISC:
-
-"cls" clears your terminal screen and restarts the shell.
 
 "cardboardturtle" displays links to my Steam, Github, Ruqqus, and my Matrix.org, which you can use Element or any other matrix client to talk to me about whatever.
 
@@ -78,7 +100,7 @@ MISC:
 
 "pfetch" launches pfetch
 
-------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------
 
 DEPENDENCIES:
 
@@ -97,3 +119,17 @@ micro
 rofi
 
 telnet
+
+nsnake
+
+pacman4console
+
+ninvaders
+
+vitetris
+
+cat
+
+cmatrix
+
+feh

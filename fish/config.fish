@@ -1,7 +1,7 @@
 clear
-cd ~
 alias penis "figlet -f mini 8========D | lolcat -F 0.5;echo hahahaha funny genitals haha"
 abbr pm "vlc ~/Music"
+alias pme "vlc ~/Music;exit"
 abbr tetris "vitetris"
 abbr install "sudo apt install"
 abbr remove "sudo apt remove"
@@ -10,9 +10,8 @@ abbr minesweeper "freesweep"
 abbr home "cd ~"
 abbr back "cd -"
 abbr up "cd .."
-abbr md "mkdir"
-abbr rd "rmdir"
-abbr cls "fish"
+abbr copy "cp"
+alias img feh
 abbr documents "cd ~/Documents"
 abbr docs "cd ~/Documents"
 abbr pictures "cd ~/Pictures"
@@ -28,17 +27,29 @@ abbr secondary "cd /;cd /secondary"
 abbr tertiary "cd /;cd /tertiary"
 abbr primary "cd /"
 abbr root "cd /"
-abbr config "micro ~/.config/fish/config.fish"
+abbr delete "rm"
+abbr linuxinstall "micro Documents/linuxinstallguide.txt"
+abbr config "cd ~/.config"
+abbr conf "micro ~/.config/fish/config.fish"
 abbr cfg "micro ~/.config/fish/config.fish"
 abbr colors "micro ~/.config/fish/fish_variables"
 abbr cardboardturtle 'Github: https://github.com/CardboardTurtle Ruqqus: https://ruqqus.com/@anaggravatedturtle Matrix.org: @cardboard_turtle:matrix.org Steam: https://steamcommunity.com/id/CardboardTurtle/'
-abbr readme "micro .config/fish/readme.txt"
+abbr matrix "cmatrix"
+abbr cls "clear"
+abbr snake "nsnake"
+abbr pacman "pacman4console"
+abbr invaders "ninvaders"
+abbr readme "micro ~/.config/fish/readme.txt"
+alias games "echo 'snake, pacman, invaders, minesweeper, tetris'"
 abbr pfetch ~/.config/fish/pfetch
 abbr clock "tty-clock -c -t -d 0.1 -S -s" 
-alias dir "ls"
-echo -e  (set_color brgreen) '_________________________________________
-|Welcome to CardboardTurtle`s Fish Shell! |
- -----------------------------------------
+abbr dir "ls -a -s -h"
+abbr rename "mv"
+abbr move "mv"
+abbr create "touch"
+echo -e  (set_color brgreen) '__________________________________________
+| Welcome to CardboardTurtle`s Fish Shell! |
+ ------------------------------------------
     \    '(set_color ad8762)'                              ___-------___
  '(set_color brgreen)'    \  '(set_color a77f58)'                           _-~~             ~~-_
   '(set_color brgreen)'    \       '(set_color a77f58)'                  _-~                   / ~-_
@@ -55,4 +66,4 @@ echo -e  (set_color brgreen) '_________________________________________
                   (_(__/  ./     /                    \_\      \.
                          (_(___/                         \_____)_) '
 printf (set_color brcyan) ""
-date +"%a, %b. %d. %l:%M" |figlet -f small
+date +"%a, %b %d. %l:%M %p" |figlet -f small
