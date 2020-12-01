@@ -84,6 +84,8 @@ BASIC COPUTER USE:
 
 "move" moves a file. type filename then the new location.
 
+"copy" copies a file or directory. type the file/directory and then type the new location. NOTE: if moving a directory, be sure to write the directory in the second argument. write "copy ~/downloads/test ~/pictures/test," not "copy ~/downloads/test ~/pictures." the contents of "test" will just be put into the pictures directory.
+
 
 
 MISC:
