@@ -28,10 +28,13 @@ abbr tertiary "cd /;cd /tertiary"
 abbr primary "cd /"
 abbr root "cd /"
 abbr delete "rm"
+abbr rmfile "rm"
+abbr changeterm 'sudo update-alternatives --config x-terminal-emulator'
+abbr changeshell 'sudo chsh -s /usr/bin/'
+abbr wmconf "micro ~/.config/awesome/rc.lua"
 abbr linuxinstall "micro Documents/linuxinstallguide.txt"
 abbr config "cd ~/.config"
-abbr conf "micro ~/.config/fish/config.fish"
-abbr cfg "micro ~/.config/fish/config.fish"
+abbr fishconf "micro ~/.config/fish/config.fish"
 abbr colors "micro ~/.config/fish/fish_variables"
 abbr cardboardturtle 'Github: https://github.com/CardboardTurtle Ruqqus: https://ruqqus.com/@anaggravatedturtle Matrix.org: @cardboard_turtle:matrix.org Steam: https://steamcommunity.com/id/CardboardTurtle/'
 abbr matrix "cmatrix"
@@ -47,6 +50,7 @@ abbr dir "ls -a -s -h"
 abbr rename "mv"
 abbr move "mv"
 abbr create "touch"
+abbr mkfile "touch"
 echo -e  (set_color brgreen) '__________________________________________
 | Welcome to CardboardTurtle`s Fish Shell! |
  ------------------------------------------

@@ -3,12 +3,13 @@
 SETUVAR __fish_initialized:3100
 SETUVAR _fish_abbr_back:cd\x20\x2d
 SETUVAR _fish_abbr_cardboardturtle:Github\x3a\x20https\x3a//github\x2ecom/CardboardTurtle\x20Ruqqus\x3a\x20https\x3a//ruqqus\x2ecom/\x40anaggravatedturtle\x20Matrix\x2eorg\x3a\x20\x40cardboard_turtle\x3amatrix\x2eorg\x20Steam\x3a\x20https\x3a//steamcommunity\x2ecom/id/CardboardTurtle/
-SETUVAR _fish_abbr_cfg:micro\x20\x7e/\x2econfig/fish/config\x2efish
+SETUVAR _fish_abbr_changeshell:sudo\x20chsh\x20\x2ds\x20/usr/bin/
+SETUVAR _fish_abbr_changeterm:sudo\x20update\x2dalternatives\x20\x2d\x2dconfig\x20x\x2dterminal\x2demulator
 SETUVAR _fish_abbr_clock:tty\x2dclock\x20\x2dc\x20\x2dt\x20\x2dd\x200\x2e1\x20\x2dS\x20\x2ds
 SETUVAR _fish_abbr_cls:clear
 SETUVAR _fish_abbr_colors:micro\x20\x7e/\x2econfig/fish/fish_variables
-SETUVAR _fish_abbr_conf:micro\x20\x7e/\x2econfig/fish/config\x2efish
 SETUVAR _fish_abbr_config:cd\x20\x7e/\x2econfig
+SETUVAR _fish_abbr_copy:cp
 SETUVAR _fish_abbr_coronachan:curl\x20https\x3a//corona\x2dstats\x2eonline
 SETUVAR _fish_abbr_coronachanusa:curl\x20https\x3a//corona\x2dstats\x2eonline/states/us
 SETUVAR _fish_abbr_create:touch
@@ -18,12 +19,14 @@ SETUVAR _fish_abbr_dir:ls\x20\x2da\x20\x2ds\x20\x2dh
 SETUVAR _fish_abbr_docs:cd\x20\x7e/Documents
 SETUVAR _fish_abbr_documents:cd\x20\x7e/Documents
 SETUVAR _fish_abbr_downloads:cd\x20\x7e/Downloads
+SETUVAR _fish_abbr_fishconf:micro\x20\x7e/\x2econfig/fish/config\x2efish
 SETUVAR _fish_abbr_home:cd\x20\x7e
 SETUVAR _fish_abbr_install:sudo\x20apt\x20install
 SETUVAR _fish_abbr_invaders:ninvaders
 SETUVAR _fish_abbr_linuxinstall:micro\x20Documents/linuxinstallguide\x2etxt
 SETUVAR _fish_abbr_matrix:cmatrix
 SETUVAR _fish_abbr_minesweeper:freesweep
+SETUVAR _fish_abbr_mkfile:touch
 SETUVAR _fish_abbr_move:mv
 SETUVAR _fish_abbr_music:cd\x20\x7e/Music
 SETUVAR _fish_abbr_pacman:pacman4console
@@ -35,6 +38,7 @@ SETUVAR _fish_abbr_purge:sudo\x20apt\x20purge
 SETUVAR _fish_abbr_readme:micro\x20\x7e/\x2econfig/fish/readme\x2etxt
 SETUVAR _fish_abbr_remove:sudo\x20apt\x20remove
 SETUVAR _fish_abbr_rename:mv
+SETUVAR _fish_abbr_rmfile:rm
 SETUVAR _fish_abbr_rofi:rofi\x20\x2dshow\x20run
 SETUVAR _fish_abbr_root:cd\x20/
 SETUVAR _fish_abbr_secondary:cd\x20/\x3bcd\x20/secondary
@@ -44,6 +48,7 @@ SETUVAR _fish_abbr_tertiary:cd\x20/\x3bcd\x20/tertiary
 SETUVAR _fish_abbr_tetris:vitetris
 SETUVAR _fish_abbr_up:cd\x20\x2e\x2e
 SETUVAR _fish_abbr_videos:cd\x20\x7e/Videos
+SETUVAR _fish_abbr_wmconf:micro\x20\x7e/\x2econfig/awesome/rc\x2elua
 SETUVAR fish_color_autosuggestion:brblack
 SETUVAR fish_color_cancel:green
 SETUVAR fish_color_command:green
