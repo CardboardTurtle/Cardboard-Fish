@@ -1,7 +1,4 @@
-#!/bin/sh
-#
-# pfetch - Simple POSIX sh fetch script.
-
+q
 log() {
     # The 'log()' function handles the printing of information.
     # In 'pfetch' (and 'neofetch'!) the printing of the ascii art and info
