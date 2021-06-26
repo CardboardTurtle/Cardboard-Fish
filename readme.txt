@@ -1,3 +1,5 @@
+the only complicated thing here is a funciton that detaches VLC whenever it is spawned, this way if you want to VLC your music folder you don't have VLC and a terminal lying around, just VLC.
+
 this readme is probably hella outdated and some stuff might have changed. just look in the config file to see the aliases and abbreviations.
 things I know are different are that im using MPV instead of feh or sxiv or vlc or whatever, nt and newterm launches a new terminal in the directory you currently are in, instead of "config" to open the fishconf you have to type "fishconf" same goes for awesomewm config its "wmconf"...
 look- just read the file. I wont be updating this readme out of laziness, just look at all those abbreviations and aliases.
