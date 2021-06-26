@@ -1,3 +1,7 @@
+this readme is probably hella outdated and some stuff might have changed. just look in the config file to see the aliases and abbreviations.
+things I know are different are that im using MPV instead of feh or sxiv or vlc or whatever, nt and newterm launches a new terminal in the directory you currently are in, instead of "config" to open the fishconf you have to type "fishconf" same goes for awesomewm config its "wmconf"...
+look- just read the file. I wont be updating this readme out of laziness, just look at all those abbreviations and aliases.
+
 My personal Fish Shell configuration. Fish shell: https://fishshell.com/
 
 To install, get the Fish shell. Then, place my folder in your "~/.config" directory. there should already be a folder labelled "fish" in there, just replace it with this folder.
